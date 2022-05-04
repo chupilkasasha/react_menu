@@ -60,3 +60,12 @@ ul{
   color: rgb(117, 110, 110);
   margin-left: 20px;
 }
+
+@media screen and (max-width:768px){
+  .menu_content{
+    width: 100%;
+  }
+  .blur{
+    backdrop-filter: none;
+  }
+}
